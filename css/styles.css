@@ -634,7 +634,7 @@ progress {
 .container-sm {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
-  width: 100%;
+  width: 100% !important;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
@@ -3624,7 +3624,8 @@ textarea.form-control-lg {
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
   font-size: var(--bs-nav-link-font-size);
   font-weight: var(--bs-nav-link-font-weight);
-  color: var(--bs-nav-link-color);
+  /* color: var(--bs-nav-link-color); */
+  color: #fff;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -10834,7 +10835,7 @@ textarea.form-control-lg {
 /* Mozarq */
 
 .services-item:hover{
-  background-color: yellow;
+  /* background-color: yellow; */
   color:black;
 }
 
@@ -10911,7 +10912,11 @@ textarea.form-control-lg {
 }
 
 .bg-darker {
-  background-color: #343a40; /* Menggunakan warna gelap dari tema Bootstrap */
+  background-color: #140f10; /* Menggunakan warna gelap dari tema Bootstrap */
+}
+
+.bg-hero{
+  background-color: #262626;
 }
 
 .bg-title{
@@ -11046,4 +11051,68 @@ textarea.form-control-lg {
 	30%, 100% {
 		opacity: 0;
 	}
+}
+
+#lp-partner:hover{
+  background-color: #37a157;
+}
+
+#web-partner:hover{
+  background-color: #062160;
+}
+
+#ec-partner:hover{
+  background-color: #f95309;
+}
+
+#seo-partner:hover{
+  background-color: #a534c3;
+}
+
+#dgm:hover{
+  background-color: #c10504;
+}
+
+#os-cloud:hover{
+  background-color: #06e2fb;
+}
+
+#hotel-os:hover{
+  background-color: #fcc008;
+}
+
+#netshop-os:hover{
+  background-color: #0704f9;
+}
+
+#media-os:hover{
+  background-color: #042461;
+}
+
+#release-os:hover{
+  background-color: #042461;
+}
+
+#recruit-os:hover{
+  background-color: #fbfa0c;
+}
+
+#realtor-os:hover{
+  background-color: #c23e27;
+}
+
+#website-os:hover{
+  background-color: #f450f5;
+}
+
+#system-partner:hover{
+  background-color: #05ac53;
+}
+
+#b2b-os:hover{
+  background-color: #05c263;
+}
+
+#franchise-os:hover{
+  background-color: #7505f5;
 }
